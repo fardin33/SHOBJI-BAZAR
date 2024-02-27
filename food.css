@@ -1,0 +1,390 @@
+
+body{
+    background-color: rgb(230 242 241);
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+.flex-box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.btn{
+    background-color:#008000;
+    color: white;
+    border-radius: 6%;
+    
+}
+
+/*top bar style*/
+
+.top-bar{
+    height: 40px;
+    line-height: 40px;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.top-bar .left-side ul li{
+    display: inline-block;
+}
+.number{
+    margin-left: 10px;
+}
+
+.right-side select{
+    border:none;
+}
+.right-side-two{
+    border-radius:20%;
+}
+
+ /*nav bar style*/
+
+ nav{
+    height: 90px;
+    line-height: 90px;
+    border-bottom:1px solid rgba(0,0,0,0.1) 
+ }
+
+ .logo a{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+
+ .logo a span{
+    font-size: 45px;
+    color: rgb(54 151 58);
+ }
+
+ .menu ul li{
+    display: inline;
+    padding: 0px 10px;
+ }
+
+ .menu ul li a{
+    color: rgb(185, 107, 201);
+    font-weight: bolder;
+ }
+
+ .text-d{
+    font-size:18px;
+ }
+ .text-d:hover{
+    text-decoration: underline rgb(150, 145, 145) 2px;
+ }
+
+.clr-st{
+    color:rgb(12, 131, 230);
+}
+.clr-sty{
+    color:rgb(212, 9, 9);
+}
+
+/* hero are css code here*/
+
+.hero{
+    background-image: url(images/banner/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 69vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.hero h4{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom: 20px;
+}
+
+.hero a{
+    padding: 10px 15px;
+}
+
+/*Services area css here*/
+
+#services{
+    padding: 50px;
+    color:#403b3b;
+}
+
+.service-box{
+    width: 24% ;
+} 
+.service-box img{
+    height: 50px;
+    width: 50px;
+} 
+
+.service-box .text{
+    margin-left: 10px;
+} 
+.service-box .text h5{
+    margin-bottom: 7px;
+}
+
+
+/*Product Selaction area here*/
+
+.product-box{
+   text-align: center;
+   color: gray;
+   line-height:30px; 
+}
+.text-h:hover{
+    background-color: #141414;
+    color:rgb(247, 143, 7);
+}
+
+del{
+    color: gray;
+}
+
+.green{
+    color: green;
+}
+.price{
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+.card{
+    padding: 10px 12px;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.product-row{
+    margin-top: 35px;
+}
+
+.tittle{
+    margin-top:25px;
+    margin-bottom:30px;
+    text-align: center;
+    font-size:30px;
+    color:#4b4b87;
+}
+.tittle h1{
+    font-size: 35px;
+}
+
+/*banner section start*/
+#banner{
+    margin-top:50px;
+    margin-bottom:20px;
+    padding: 70px 0px;
+}
+
+/*best sell products area start here*/
+
+.right-side-product .product-box{
+    line-height: 28px;
+    margin-top: 16px;
+}
+.right-side-product img{
+    width: 140px;
+}
+.content{
+    margin-right:100px;
+}
+.content h4{
+    font-size: 20px;
+}
+
+.right-side-product a{
+    font-size: 13px;
+    transition: 0.3s all ease;
+}
+.right-side-product a:hover{
+    background-color: #210ed4;
+    color:rgb(236, 235, 234);
+}
+
+.left-side-product{
+    margin-left:68px;
+}
+
+/*Discount section*/
+
+.discount{
+    background-image:url(images/banner/discountBanner.jpg);
+    background-position: center;background-repeat:no-repeat;
+    margin-top:50px;
+    margin-bottom:20px;
+    padding: 50px 0px;
+}
+
+.banner-content h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: green;
+}
+.banner-content h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: black;
+    margin: 5px 0px;
+}
+.banner-content h4{
+    font-weight: 700px;
+    margin-bottom: 19px;
+}
+.banner-content a{
+    padding:10px 15px;
+    font-size: 17px; 
+}
+
+/*Blog CSS Here*/
+
+#blog{
+    padding: 60px 0px;
+}
+#blog .tittle{
+    margin-bottom: 55px;
+}
+#blog img{
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+#blog #blog-box{
+    color: gray;
+}
+#blog .text{
+    width: 90%;
+}
+#blog .text h6{
+    font-size: 13px;
+    margin: 5px;
+}
+#blog .text p{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+#blog .text a{
+    font-size: 14px;
+}
+.taxt-hh{
+    background-color:rgb(94, 89, 139);
+    color:rgb(238, 233, 233);
+}
+
+#brand{
+    padding: 60px 0px;
+}
+
+#brand .brand-box{
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 5px;
+    padding: 30px;
+    background-color: #b0b0bd;
+}
+
+#brand .brand-box img{
+    opacity: 0.5;
+    transition: 0.1s all ease;
+}
+
+#brand .brand-box img:hover{
+    opacity: 1;
+}
+
+/*Top  Footer Section*/
+#logo{
+  padding: 70px 0px;
+  color: gray;
+}
+
+#top-footer li{
+    line-height: 28px;
+    color: #bf9898;
+}
+
+#top-footer{
+    background-color: rgb(37 20 68);
+    color: aliceblue;
+    font-size: 19px;
+    padding-top: 20px;
+    padding-bottom: 15px;    
+}
+
+#top-footer .logo{
+    font-size: 19px;
+    margin-bottom:10px;
+    margin-top: 20px;
+}
+#top-footer h4{
+    margin-bottom:20px; 
+    color: rgb(143, 12, 230);
+    font-size: 23px;
+}
+
+#top-footer{
+    font-size: 18px;
+}
+
+input{
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1px solid gray;
+    border-right:none;
+}
+
+input::placeholder{
+    font-size: 16px;
+}
+
+button{
+    padding: 10px 7px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: 1px solid gray;
+    background-color: rgb(245, 6, 26);
+    color:#fff;
+}
+
+button:hover{
+    box-shadow:2px;
+}
+
+/*footer*/
+
+footer{
+    background-color:rgb(37 20 68);
+    padding: 20px;
+    color: #fff;
+    font-size: 22px;
+}
+
+footer img{
+    margin-left: 10px;  
+}
+/*Done*/
